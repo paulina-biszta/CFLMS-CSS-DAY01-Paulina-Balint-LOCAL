@@ -1,0 +1,19 @@
+div {
+	border: 2px solid blue;
+	margin: 5px;
+}
+
+h1 {
+	visibility: hidden;
+}
+
+#third span p {
+	visibility: hidden;
+}
+
+#second{
+	visibility: hidden;
+}
+#second img{
+	visibility: visible;
+}
