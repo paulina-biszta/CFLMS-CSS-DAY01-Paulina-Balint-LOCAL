@@ -1,0 +1,16 @@
+.navbar {
+    float: left;
+    width: 30%;
+    background: #f1f1f1;
+    padding: 20px;
+    height: 14rem;
+}
+
+.navbar__list > li {
+  list-style: none;
+  padding: 0.6rem;
+}
+
+.navbar__list a {
+  text-decoration: none;
+}

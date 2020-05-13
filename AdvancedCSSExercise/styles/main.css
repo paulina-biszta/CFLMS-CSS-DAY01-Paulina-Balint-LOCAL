@@ -1,0 +1,14 @@
+.main-content {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 14rem;
+}
+
+.vl {
+    border-left: 6px solid rgb(80, 76, 76);
+    height: auto;
+    padding-left: 1rem;
+  }
+  

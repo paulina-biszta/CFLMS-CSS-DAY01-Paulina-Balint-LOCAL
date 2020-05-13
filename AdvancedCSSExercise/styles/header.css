@@ -1,0 +1,18 @@
+.header {
+  position: relative;
+}
+
+.header__pic {
+  width: 100%;
+  object-fit: fill;
+}
+
+.header__title {
+  font-size: 4.6rem;
+  position: absolute;
+  bottom: 140px;
+  right: 640px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
