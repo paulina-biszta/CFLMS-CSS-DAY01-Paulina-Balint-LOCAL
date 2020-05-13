@@ -5,4 +5,30 @@
 body {
 	background-color: #3C719B;
 	color: white;
+	text-align: center;
+}
+header{
+	background-color: #184771;
+	padding: 1em;
+}
+.author{
+	font-style: italic;
+	margin: 1em;
+}
+article details summary{
+	background-color: #052F55;
+	padding: 1em;
+}
+article{
+	padding: 1em;
+	margin: 2em;
+	background-color: #6181A1;
+}
+ol{
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align:left;
+}
+footer{
+	background-color: #6181A1;
 }
