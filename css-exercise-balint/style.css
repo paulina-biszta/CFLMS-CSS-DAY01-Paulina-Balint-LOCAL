@@ -3,23 +3,10 @@ div {
     margin: 5px;
 }
 
-h1 {
-    display: none;
-}
-
-#second {
-    visibility: hidden;
-}
-
-#third > p {
-    display: none;
-}
-
-#second img {
-    visibility: visible;
-}
-
 img {
     height: 16rem;
 }
 
+#first p {
+    font-size: 1.8rem;
+}
