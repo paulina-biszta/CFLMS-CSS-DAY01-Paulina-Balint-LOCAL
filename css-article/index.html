@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Article</title>
+</head>
+<body>
+    <article>
+        <section>
+            <head>
+                <img src="./header.png" alt="logo">
+                <h1>CSS Specificity</h1>
+            </head>
+        </section>
+        <section>
+            <author>Emma Bostian</author>
+            <details>
+                <summary>CSS Specificity</summary>
+                <p>CSS Specificity is the set of the rules applied to CSS selectors in order to determine which style is applied to an element. The more specific a CSS style is, the higher point value it accrues, and the likelier it is to be present on the element's style.
+                </p>
+              </details>
+        </section>
+        <section>
+            <p>
+                There are many benefits of understanding CSS Specificity and leveraging it to your benefit.
+
+Helps understand why styles aren't applied
+
+To understand why your CSS styles aren't being applied to an element, you must first have a basic understanding of CSS Specificity.
+
+It's so easy to just slap an !important value on your CSS styles, but this causes your CSS to quickly spiral out of control.
+
+By understanding how styles are applied, you can ensure the styles you want displayed are being rendered.
+
+Helps organize code
+
+CSS can quickly become unruly when we don't stop to think about an architecture for our style sheets, and instead throw a ton of CSS selectors around without thinking about specificity.
+
+One way to combat messy CSS, and ensure your specificity rules are being applied as intended, is to adopt a CSS naming architecture. Block-element-modifier (BEM) is one of the most commonly used CSS naming architectures. We won't delve into naming architectures now, but they can help you ensure that your styles aren't overriding each other.
+
+By making the most of CSS Specificity, you ensure that your code is organized, and your selectors won't conflict with one another.
+
+Helps write cleaner code
+
+It's not uncommon to see a code base riddled with !important overrides. Although !important gives you a way to say "Forget all those other styles, I want this one to be applied!!!" it can cause serious issues when you need to update a style and you're not sure where to begin.
+
+CSS Specificity allows you to include the CSS necessary to style your elements, in the correct way. It's easier to quickly change a style when you know exactly which selector styles that specific element. Plus, you'll probably find yourself writing less CSS code overall, which will help with maintainability.
+            </p>
+        </section>
+    </article>
+    
+</body>
+</html>
