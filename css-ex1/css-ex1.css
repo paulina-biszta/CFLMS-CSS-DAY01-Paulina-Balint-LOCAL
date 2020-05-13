@@ -4,16 +4,19 @@ div {
 }
 
 h1 {
-	visibility: hidden;
+	visibility: visible;
 }
 
 #third span p {
-	visibility: hidden;
+	visibility: visible;
 }
 
 #second{
-	visibility: hidden;
+	visibility: visible;
 }
 #second img{
 	visibility: visible;
+}
+#first span p{
+	font-size: 2em;
 }
