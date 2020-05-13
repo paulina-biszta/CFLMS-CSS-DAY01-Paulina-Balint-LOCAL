@@ -1,13 +1,13 @@
 .main-content {
     float: left;
-    padding: 20px;
+    padding: 1.25rem;
     width: 70%;
     background-color: #f1f1f1;
     height: 14rem;
 }
 
 .vl {
-    border-left: 6px solid rgb(80, 76, 76);
+    border-left: 0.375rem solid rgb(80, 76, 76);
     height: auto;
     padding-left: 1rem;
   }
