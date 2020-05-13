@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Layout</title>
+	<!-- <meta http-equiv="refresh" content="10;url=https://codefactory.wien/en/home-en/"> -->
+</head>
+<body>
+	<header>
+		<h1>SLEEP WELL</h1>
+		<nav>
+			<ul>
+				<li>
+					<a href="layout.html">HOME</a></li>
+				<li>
+					<a href="aboutus.html">ABOUT US</a></li>
+				<li>
+					<a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h2>Contact us</h2>
+	<h3> or leave your contact information </h3>
+
+	<form action="/action_page.php">
+		First name:<br>
+		<input type="text" name="firstname" placeholder="First name"><br>
+
+		Last name:<br>
+		<input type="text" name="lastname"  placeholder="Last name"><br>
+
+		Your email:<br>
+		<input type="text" name="email"  placeholder="Your email"><br>
+
+	
+		<legend>Please select your gender</legend>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label>
+
+      <br/><br/>
+    Tell us about your sleep: <br/>
+    <textarea name="message" rows="20" cols="40">Let us know you better
+    </textarea>
+
+    <br/><br/>
+
+    <input type="submit" name="Submit" value="Submit">
+		
+	</form>
+	
+</body>
+</html>
